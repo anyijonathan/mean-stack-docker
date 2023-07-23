@@ -1,5 +1,5 @@
 # Create image based off of the official Node 6 image
-FROM node:10.1.0-alpine
+FROM node:12.1.0-alpine
 
 # Create a directory where our app will be placed
 RUN mkdir -p /usr/src/app
