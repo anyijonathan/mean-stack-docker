@@ -1,11 +1,10 @@
 # Stage 1
-FROM node:10.1.0-alpine as node
+FROM node:12.1.0-alpine as node
 
 WORKDIR /usr/src/app
 
 COPY package*.json ./
 
-RUN npm i npm@latest -g
 
 RUN npm install
 
